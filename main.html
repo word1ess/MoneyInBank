@@ -1,0 +1,679 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script defer src="js/app.min.js"></script>
+    <title>Главная</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="header__row">
+        <div class="header__top">
+            <div class="container">
+                <a href="index.html" class="header__logo">
+                    <img src="img/svgicons/logo.svg" alt="logo">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <p>Информационно - новостной онлайн сервис</p>
+            </div>
+        </div>
+        <nav class="header__menu">
+            <div class="container">
+                <div class="header__links">
+                    <a href="#">ГЛАВНАЯ</a>
+                    <a href="#">КРЕДИТНЫЕ КАРТЫ</a>
+                    <a href="#">КРЕДИТЫ</a>
+                    <a href="#">ЗАЙМЫ</a>
+                    <a href="#">СТАТЬИ</a>
+                    <a href="#">ВОПРОСЫ / ОТВЕТЫ</a>
+                </div>
+                <div class="header__icons">
+                    <a href="#">
+                        <img src="img/svgicons/search.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/user.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+            <main class="content">
+                <article class="intro intro-index">
+                    <div class="container">
+                        <h1>
+                            Подбор финансовых продуктов в
+                            <span>России</span>
+                        </h1>
+                        <main class="intro-index__row">
+                            <header class="intro-index__top">
+                                <div class="intro-index__item with-bg-image">
+                                    <img src="img/index/intro/1.png" alt="">
+                                    <div class="with-bg-image__row">
+                                        <p>Срочные займы на карту</p>
+                                        <ul>
+                                            <li>С отпиской от платных услуг</li>
+                                            <li>Выдача на карту</li>
+                                            <li>Деньги у вас в течение часа</li>
+                                        </ul>
+                                        <a href="#" class="btn">Подобрать займ</a>
+                                    </div>
+                                </div>
+                                <div class="intro-index__item">
+                                    <p>Погашение кредитов, займов</p>
+                                    <img src="img/index/intro/2.png" alt="">
+                                </div>
+                                <div class="intro-index__item">
+                                    <p>Персональный подбор кредита</p>
+                                    <img src="img/index/intro/3.png" alt="">
+                                </div>
+                            </header>
+                            <main class="intro-index__bottom">
+                                <div class="intro-index__item">
+                                    <div class="intro-index__info">
+                                        <p>Вклады</p>
+                                        <p>1086 предложений</p>
+                                    </div>
+                                    <img src="img/svgicons/intro-index-1.svg" alt="">
+                                </div>
+                                <div class="intro-index__item">
+                                    <div class="intro-index__info">
+                                        <p>Займы</p>
+                                        <p>386 предложений</p>
+                                    </div>
+                                    <img src="img/svgicons/intro-index-2.svg" alt="">
+                                </div>
+                                <div class="intro-index__item">
+                                    <div class="intro-index__info">
+                                        <p>Кредитные карты</p>
+                                        <p>Более 120 карт от 60 банков</p>
+                                    </div>
+                                    <img src="img/svgicons/intro-index-3.svg" alt="">
+                                </div>
+                                <div class="intro-index__item">
+                                    <div class="intro-index__info">
+                                        <p>Дебетовые карты</p>
+                                        <p>1086 предложений</p>
+                                    </div>
+                                    <img src="img/svgicons/intro-index-4.svg" alt="">
+                                </div>
+                                <div class="intro-index__item">
+                                    <div class="intro-index__info">
+                                        <p>Кредиты</p>
+                                        <p>Более 120 карт от 60 банков</p>
+                                    </div>
+                                    <img src="img/svgicons/intro-index-5.svg" alt="">
+                                </div>
+                                <div class="intro-index__item">
+                                    <div class="intro-index__info">
+                                        <p>Ипотека</p>
+                                        <p>386 предложений</p>
+                                    </div>
+                                    <img src="img/svgicons/intro-index-6.svg" alt="">
+                                </div>
+                            </main>
+                            <form action="#" class="intro-index__selects">
+                                <div data-curroption="" class="intro-index__select custom-select">
+                                    <header class="custom-select__header">
+                                        <span>Я ищу</span>
+                                        <p>Кредитные карты</p>
+                                    </header>
+                                    <main class="custom-select__body">
+                                        <p class="custom-select__option">Option1</p>
+                                        <p class="custom-select__option">Option2</p>
+                                        <p class="custom-select__option">Option3</p>
+                                        <p class="custom-select__option">Option4</p>
+                                    </main>
+                                </div>
+                                <div data-curroption="" class="intro-index__select custom-select">
+                                    <header class="custom-select__header">
+                                        <span>Кредитный лимит</span>
+                                        <p>Любой</p>
+                                    </header>
+                                    <main class="custom-select__body">
+                                        <p class="custom-select__option">Option1</p>
+                                        <p class="custom-select__option">Option2</p>
+                                        <p class="custom-select__option">Option3</p>
+                                        <p class="custom-select__option">Option4</p>
+                                    </main>
+                                </div>
+                                <div data-curroption="" class="intro-index__select custom-select">
+                                    <header class="custom-select__header">
+                                        <span>Льготный период</span>
+                                        <p>Любой</p>
+                                    </header>
+                                    <main class="custom-select__body">
+                                        <p class="custom-select__option">Option1</p>
+                                        <p class="custom-select__option">Option2</p>
+                                        <p class="custom-select__option">Option3</p>
+                                        <p class="custom-select__option">Option4</p>
+                                    </main>
+                                </div>
+                                <button class="btn">Показать предложения</button>
+                            </form>
+                        </main>
+                    </div>
+                </article>
+                <section class="advantages bg-white">
+                    <div class="container">
+                        <div class="tip">
+                            <img src="img/svgicons/tip.svg" alt="tip">
+                            <p>Информация о рекламодателях</p>
+                        </div>
+                        <main class="advantages__row">
+                            <div class="advantages__advantage">
+                                <img src="img/svgicons/advantage-1.svg" alt="advantage">
+                                <p>У нас все банки с лицензией ЦБ РФ</p>
+                            </div>
+                            <div class="advantages__advantage">
+                                <img src="img/svgicons/advantage-2.svg" alt="advantage">
+                                <p>1000+ предложений в каталоге</p>
+                            </div>
+                            <div class="advantages__advantage">
+                                <img src="img/svgicons/advantage-3.svg" alt="advantage">
+                                <p>2 000 000 пользователей в месяц</p>
+                            </div>
+                        </main>
+                    </div>
+                </section>
+                <article class="cards article bg-gradient-grey-down">
+                    <div class="container">
+                        <div class="cards__blocks">
+                            <div class="cards__cards">
+                                <header class="block-header">
+                                    <h2>Кредитные карты</h2>
+                                    <a href="#">Все кредитные карты</a>
+                                </header>
+                                <main class="cards__row">
+                                    <article class="cards__card">
+                                        <img src="img/cards/alfa.png" alt="alfa">
+                                        <main class="cards__info">
+                                            <h3>100 дней без % от Альфа-банк</h3>
+                                            <div class="cards__options">
+                                                <p>Кред. лимит</p>
+                                                <p>₽500 000</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Льготный период</p>
+                                                <p>100 дней</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Проц. ставка</p>
+                                                <p>11.99</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Кэшбэк</p>
+                                                <p>отсутствует</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Стоимость</p>
+                                                <p>от 590 ₽ в год</p>
+                                            </div>
+                                        </main>
+                                        <button class="btn" disabled>
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                    <article class="cards__card">
+                                        <img src="img/cards/alfa.png" alt="alfa">
+                                        <main class="cards__info">
+                                            <h3>100 дней без % от Альфа-банк</h3>
+                                            <div class="cards__options">
+                                                <p>Кред. лимит</p>
+                                                <p>₽500 000</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Льготный период</p>
+                                                <p>100 дней</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Проц. ставка</p>
+                                                <p>11.99</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Кэшбэк</p>
+                                                <p>отсутствует</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Стоимость</p>
+                                                <p>от 590 ₽ в год</p>
+                                            </div>
+                                        </main>
+                                        <button class="btn" disabled>
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                    <article class="cards__card">
+                                        <img src="img/cards/alfa.png" alt="alfa">
+                                        <main class="cards__info">
+                                            <h3>100 дней без % от Альфа-банк</h3>
+                                            <div class="cards__options">
+                                                <p>Кред. лимит</p>
+                                                <p>₽500 000</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Льготный период</p>
+                                                <p>100 дней</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Проц. ставка</p>
+                                                <p>11.99</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Кэшбэк</p>
+                                                <p>отсутствует</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Стоимость</p>
+                                                <p>от 590 ₽ в год</p>
+                                            </div>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                </main>
+                            </div>
+                            <div class="cards__cards">
+                                <header class="block-header">
+                                    <h2>Дебетовые карты</h2>
+                                    <a href="#">Все дебетовые карты</a>
+                                </header>
+                                <main class="cards__row">
+                                    <article class="cards__card">
+                                        <img src="img/cards/uralsib.png" alt="uralsib">
+                                        <main class="cards__info">
+                                            <h3>«Прибыль» от Уралсиб</h3>
+                                            <div class="cards__options">
+                                                <p>
+                                                    % на остаток
+                                                </p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Кэшбэк</p>
+                                                <p>начисление баллов</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Стоимость</p>
+                                                <p>от 0 до 588 ₽</p>
+                                            </div>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                    <article class="cards__card">
+                                        <img src="img/cards/uralsib.png" alt="uralsib">
+                                        <main class="cards__info">
+                                            <h3>«Прибыль» от Уралсиб</h3>
+                                            <div class="cards__options">
+                                                <p>
+                                                    % на остаток
+                                                </p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Кэшбэк</p>
+                                                <p>начисление баллов</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Стоимость</p>
+                                                <p>от 0 до 588 ₽</p>
+                                            </div>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                    <article class="cards__card">
+                                        <img src="img/cards/uralsib.png" alt="uralsib">
+                                        <main class="cards__info">
+                                            <h3>«Прибыль» от Уралсиб</h3>
+                                            <div class="cards__options">
+                                                <p>
+                                                    % на остаток
+                                                </p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Кэшбэк</p>
+                                                <p>начисление баллов</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Стоимость</p>
+                                                <p>от 0 до 588 ₽</p>
+                                            </div>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                </main>
+                            </div>
+                            <div class="cards__cards">
+                                <header class="block-header">
+                                    <h2>Кредиты</h2>
+                                    <a href="#">Все кредиты</a>
+                                </header>
+                                <main class="cards__row">
+                                    <article class="cards__card">
+                                        <div class="cards__image">
+                                            <img src="img/cards/sovkom.svg" alt="sovkom">
+                                        </div>
+                                        <main class="cards__info">
+                                            <h3>Восточный Банк</h3>
+                                            <div class="cards__options">
+                                                <p>
+                                                    Сумма
+                                                </p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Ставка</p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Срок</p>
+                                                <p>до 13 месяцев</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Возраст</p>
+                                                <p>от 21 до 76 лет</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Решение</p>
+                                                <p>
+                                                    онлайн
+                                                </p>
+                                            </div>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                    <article class="cards__card">
+                                        <div class="cards__image">
+                                            <img src="img/cards/sovkom.svg" alt="sovkom">
+                                        </div>
+                                        <main class="cards__info">
+                                            <h3>Восточный Банк</h3>
+                                            <div class="cards__options">
+                                                <p>
+                                                    Сумма
+                                                </p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Ставка</p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Срок</p>
+                                                <p>до 13 месяцев</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Возраст</p>
+                                                <p>от 21 до 76 лет</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Решение</p>
+                                                <p>
+                                                    онлайн
+                                                </p>
+                                            </div>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                    <article class="cards__card">
+                                        <div class="cards__image">
+                                            <img src="img/cards/sovkom.svg" alt="sovkom">
+                                        </div>
+                                        <main class="cards__info">
+                                            <h3>Восточный Банк</h3>
+                                            <div class="cards__options">
+                                                <p>
+                                                    Сумма
+                                                </p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Ставка</p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Срок</p>
+                                                <p>до 13 месяцев</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Возраст</p>
+                                                <p>от 21 до 76 лет</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Решение</p>
+                                                <p>
+                                                    онлайн
+                                                </p>
+                                            </div>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                </main>
+                            </div>
+                            <div class="cards__cards big-options">
+                                <header class="block-header">
+                                    <h2>Займы</h2>
+                                    <a href="#">Все займы</a>
+                                </header>
+                                <main class="cards__row">
+                                    <article class="cards__card">
+                                        <div class="cards__image">
+                                            <img src="img/cards/bysrodengy.svg" alt="bysrodengy">
+                                        </div>
+                                        <main class="cards__info">
+                                            <h3>Восточный Банк</h3>
+                                            <div class="cards__options">
+                                                <p>
+                                                    Сумма
+                                                </p>
+                                                <p>от 1000 до 100 000 рублей</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Ставка</p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Срок</p>
+                                                <p>от 0 до 1,5% в день</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Возраст</p>
+                                                <p>от 18 до 80 лет</p>
+                                            </div>
+                                            <p>
+                                                «Быстроденьги» — крупная федеральная компания на рынке микрофинансирования с разветвленной сетью офисов финансовой помощи и региональных дирекций по всей стране.
+                                                <br>
+                                                <br>
+                                                Это первая организация в России, предложившая населению услугу «займы до зарплаты» — небольшие суммы денег в долг на короткий срок.
+                                            </p>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                    <article class="cards__card">
+                                        <div class="cards__image">
+                                            <img src="img/cards/bysrodengy.svg" alt="bysrodengy">
+                                        </div>
+                                        <main class="cards__info">
+                                            <h3>Восточный Банк</h3>
+                                            <div class="cards__options">
+                                                <p>
+                                                    Сумма
+                                                </p>
+                                                <p>от 1000 до 100 000 рублей</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Ставка</p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Срок</p>
+                                                <p>от 0 до 1,5% в день</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Возраст</p>
+                                                <p>от 18 до 80 лет</p>
+                                            </div>
+                                            <p>
+                                                «Быстроденьги» — крупная федеральная компания на рынке микрофинансирования с разветвленной сетью офисов финансовой помощи и региональных дирекций по всей стране.
+                                            </p>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                    <article class="cards__card">
+                                        <div class="cards__image">
+                                            <img src="img/cards/bysrodengy.svg" alt="bysrodengy">
+                                        </div>
+                                        <main class="cards__info">
+                                            <h3>Восточный Банк</h3>
+                                            <div class="cards__options">
+                                                <p>
+                                                    Сумма
+                                                </p>
+                                                <p>от 1000 до 100 000 рублей</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Ставка</p>
+                                                <p>от 3% до 6%</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Срок</p>
+                                                <p>от 0 до 1,5% в день</p>
+                                            </div>
+                                            <div class="cards__options">
+                                                <p>Возраст</p>
+                                                <p>от 18 до 80 лет</p>
+                                            </div>
+                                            <p>
+                                                «Быстроденьги» — крупная федеральная компания на рынке микрофинансирования с разветвленной сетью офисов финансовой помощи и региональных дирекций по всей стране.
+                                            </p>
+                                        </main>
+                                        <button class="btn">
+                                            ОФОРМИТЬ ЗАЯВКУ
+                                        </button>
+                                    </article>
+                                </main>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="news article bg-white">
+                    <div class="container">
+                        <header class="block-header">
+                            <h2>
+                                Журнал
+                                <span>ДеньгивБанке.ру</span>
+                            </h2>
+                            <a href="#">Все кредитные карты</a>
+                        </header>
+                        <main class="news__row">
+                            <a href="#" class="news__article">
+                                <img src="img/reject.png" alt="reject">
+                                <div class="news__info">
+                                    <h3>Кому откажут в выдаче кредита</h3>
+                                    <p>Каждому из нас хоть раз в жизни приходилось брать кредит. Например, кто-то загорелся желанием приобрести вещь по вкусу, у кого-то</p>
+                                    <div class="read-more">
+                                        Читать далее
+                                        <img src="img/svgicons/arrow-more.svg" alt="more">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="news__article">
+                                <img src="img/reject.png" alt="reject">
+                                <div class="news__info">
+                                    <h3>Кому откажут в выдаче кредита</h3>
+                                    <p>Каждому из нас хоть раз в жизни приходилось брать кредит. Например, кто-то загорелся желанием приобрести вещь по вкусу, у кого-то</p>
+                                    <div class="read-more">
+                                        Читать далее
+                                        <img src="img/svgicons/arrow-more.svg" alt="more">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="news__article">
+                                <img src="img/reject.png" alt="reject">
+                                <div class="news__info">
+                                    <h3>Кому откажут в выдаче кредита</h3>
+                                    <p>Каждому из нас хоть раз в жизни приходилось брать кредит. Например, кто-то загорелся желанием приобрести вещь по вкусу, у кого-то</p>
+                                    <div class="read-more">
+                                        Читать далее
+                                        <img src="img/svgicons/arrow-more.svg" alt="more">
+                                    </div>
+                                </div>
+                            </a>
+                        </main>
+                    </div>
+                </article>
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__info">
+                <h2>
+                    Компания Бизнес-Арифметика
+                </h2>
+                <p>ИНН: 3525200125 ОГРН: 1083525002857</p>
+                <p>Отказ от ответственности: dengi-v-banke.ru — это информационно-новостной онлайн сервис, предоставляющий редакционный контент и справочную информацию о кредитных картах, кредитах и прочих займах. dengi-v-banke.ru не является кредитором или кредитным брокером и не предоставляет финансовые услуги прямо или косвенно, через представителей или агентов. Dengi-v-banke.ru не осуществляет выдачу каких-либо видов кредита. Dengi-v-banke.ru не несет ответственности за точность информации предоставленной банками по тарифам, кредитным ставкам, переплатам, а также за любую другую информацию о кредитах, публикуемую брокерами, кредиторами или рекламодателями.</p>
+            </div>
+            <nav class="footer__links">
+                <a href="mailto:info@dengi-v-banke.ru" class="mail">
+                    <img src="img/svgicons/mail.svg" alt="mail">
+                    <p>info@dengi-v-banke.ru</p>
+                </a>
+                <nav class="socials">
+                    <a href="#">
+                        <img src="img/svgicons/vk.svg" alt="vk">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/inst.svg" alt="inst">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/youtube.svg" alt="youtube">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/facebook.svg" alt="facebook">
+                    </a>
+                </nav>
+                <div class="footer__policy">
+                    <a href="#">Пользовательское соглашение</a>
+                    <a href="#">Обработка персональных данных</a>
+                </div>
+                <p>ДеньгивБанке.ру - 2023. Все права защищены</p>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </body>
+</html>

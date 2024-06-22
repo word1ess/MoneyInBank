@@ -1,0 +1,235 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script defer src="js/app.min.js"></script>
+    <title>Вопросы / ответы</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="header__row">
+        <div class="header__top">
+            <div class="container">
+                <a href="index.html" class="header__logo">
+                    <img src="img/svgicons/logo.svg" alt="logo">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <p>Информационно - новостной онлайн сервис</p>
+            </div>
+        </div>
+        <nav class="header__menu">
+            <div class="container">
+                <div class="header__links">
+                    <a href="#">ГЛАВНАЯ</a>
+                    <a href="#">КРЕДИТНЫЕ КАРТЫ</a>
+                    <a href="#">КРЕДИТЫ</a>
+                    <a href="#">ЗАЙМЫ</a>
+                    <a href="#">СТАТЬИ</a>
+                    <a href="#">ВОПРОСЫ / ОТВЕТЫ</a>
+                </div>
+                <div class="header__icons">
+                    <a href="#">
+                        <img src="img/svgicons/search.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/user.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+            <svg display="none">
+                <symbol id="arrow" viewBox="0 0 10 10">
+                    <g>
+                        <path d="M5.31716 9.93333C5.41946 9.89367 5.51291 9.8342 5.59216 9.75833L9.75883 5.59167C9.83653 5.51397 9.89816 5.42173 9.94021 5.32021C9.98226 5.21869 10.0039 5.10988 10.0039 5C10.0039 4.77808 9.91575 4.56525 9.75883 4.40833C9.68113 4.33063 9.58889 4.269 9.48737 4.22695C9.38585 4.1849 9.27705 4.16326 9.16716 4.16326C8.94524 4.16326 8.73242 4.25141 8.5755 4.40833L5.83383 7.15833L5.83383 0.833333C5.83383 0.612319 5.74603 0.400358 5.58975 0.244078C5.43347 0.0877973 5.22151 -2.09045e-07 5.0005 -2.18706e-07C4.77948 -2.28367e-07 4.56752 0.0877973 4.41124 0.244078C4.25496 0.400358 4.16716 0.612319 4.16716 0.833333L4.16716 7.15833L1.4255 4.40833C1.34803 4.33023 1.25586 4.26823 1.15431 4.22592C1.05276 4.18362 0.943839 4.16183 0.83383 4.16183C0.72382 4.16183 0.614898 4.18362 0.513349 4.22592C0.4118 4.26823 0.319633 4.33023 0.242164 4.40833C0.164057 4.4858 0.10206 4.57797 0.0597527 4.67952C0.0174455 4.78107 -0.00433578 4.88999 -0.00433578 5C-0.00433579 5.11001 0.0174455 5.21893 0.0597527 5.32048C0.10206 5.42203 0.164057 5.5142 0.242164 5.59167L4.40883 9.75833C4.48808 9.8342 4.58154 9.89367 4.68383 9.93333C4.88671 10.0167 5.11428 10.0167 5.31716 9.93333Z"/>
+                    </g>
+                </symbol>
+            </svg>
+            <main class="content">
+                <article class="intro intro-bg-image">
+                    <img src="img/block-bg/faq.png" alt="bg" class="intro-bg-image__bg">
+                    <div class="container">
+                        <div class="intro-bg-image__row">
+                            <nav class="breadcrubms">
+                                <a href="indet.html">Главная</a>
+                                <img src="img/svgicons/breadcrumbs.svg" alt="separator">
+                                <p>Вопросы / ответы</p>
+                            </nav>
+                            <h1>Вопросы / ответы</h1>
+                        </div>
+                    </div>
+                </article>
+                <article class="sort article">
+                    <div class="container">
+                        <div class="sort__row">
+                            <div class="sort__searching">
+                                <form action="#" class="sort__search">
+                                    <label>
+                                        <p class="custom-select__label">Что вы хотите узнать?</p>
+                                        <input type="search" placeholder="Поиск по вопросу">
+                                        <button class="sort__loupe">
+                                            <img src="img/svgicons/search.svg" alt="">
+                                        </button>
+                                    </label>
+                                </form>
+                                <button type="submit" class="btn btn-blue">Задать свой вопрос</button>
+                            </div>
+                            <div class="sort__filters">
+                                <label data-curroption="" class="custom-select">
+                                    <p class="custom-select__label">Фильтр</p>
+                                    <header class="custom-select__header">
+                                        <p>Все регионы</p>
+                                    </header>
+                                    <main class="custom-select__body">
+                                        <p class="custom-select__option">Option1</p>
+                                        <p class="custom-select__option">Option2</p>
+                                        <p class="custom-select__option">Option3</p>
+                                        <p class="custom-select__option">Option4</p>
+                                    </main>
+                                </label>
+                                <div class="sort__sorting">
+                                    <p>Сортировка</p>
+                                    <div class="sort__filter active">
+                                        <p>
+                                            Просмотры
+                                            <svg>
+                                                <use xlink:href="#arrow"></use>
+                                            </svg>
+                                        </p>
+                                    </div>
+                                    <div class="sort__filter">
+                                        <p>
+                                            Ответы
+                                            <svg>
+                                                <use xlink:href="#arrow"></use>
+                                            </svg>
+                                        </p>
+                                    </div>
+                                    <div class="sort__filter">
+                                        <p>
+                                            Голоса
+                                            <svg>
+                                                <use xlink:href="#arrow"></use>
+                                            </svg>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="topic article">
+                    <div class="container">
+                        <a href="#" class="topic__header">
+                            <div class="topic__user">
+                                <img src="img/svgicons/faq-user.svg" alt="user">
+                            </div>
+                            <div class="topic__info">
+                                <h3>Ипотека</h3>
+                                <div class="topic__labels">
+                                    <div class="topic__status">Открыт</div>
+                                    <div class="topic__author">Admin</div>
+                                    <div class="topic__time">спросил 5 лет назад</div>
+                                </div>
+                            </div>
+                            <div class="topic__stats">
+                                <div class="topic__stat">
+                                    <img src="img/svgicons/faq-views.svg" alt="views">
+                                    <p>23</p>
+                                </div>
+                                <div class="topic__stat">
+                                    <img src="img/svgicons/faq-comments.svg" alt="comments">
+                                    <p>23</p>
+                                </div>
+                                <div class="topic__stat">
+                                    <img src="img/svgicons/faq-likes.svg" alt="likes">
+                                    <p>23</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="topic__header">
+                            <div class="topic__user">
+                                <img src="img/svgicons/faq-user.svg" alt="user">
+                            </div>
+                            <div class="topic__info">
+                                <h3>Ипотека</h3>
+                                <div class="topic__labels">
+                                    <div class="topic__status">Открыт</div>
+                                    <div class="topic__author">Admin</div>
+                                    <div class="topic__time">спросил 5 лет назад</div>
+                                </div>
+                            </div>
+                            <div class="topic__stats">
+                                <div class="topic__stat">
+                                    <img src="img/svgicons/faq-views.svg" alt="views">
+                                    <p>23</p>
+                                </div>
+                                <div class="topic__stat">
+                                    <img src="img/svgicons/faq-comments.svg" alt="comments">
+                                    <p>23</p>
+                                </div>
+                                <div class="topic__stat">
+                                    <img src="img/svgicons/faq-likes.svg" alt="likes">
+                                    <p>23</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__info">
+                <h2>
+                    Компания Бизнес-Арифметика
+                </h2>
+                <p>ИНН: 3525200125 ОГРН: 1083525002857</p>
+                <p>Отказ от ответственности: dengi-v-banke.ru — это информационно-новостной онлайн сервис, предоставляющий редакционный контент и справочную информацию о кредитных картах, кредитах и прочих займах. dengi-v-banke.ru не является кредитором или кредитным брокером и не предоставляет финансовые услуги прямо или косвенно, через представителей или агентов. Dengi-v-banke.ru не осуществляет выдачу каких-либо видов кредита. Dengi-v-banke.ru не несет ответственности за точность информации предоставленной банками по тарифам, кредитным ставкам, переплатам, а также за любую другую информацию о кредитах, публикуемую брокерами, кредиторами или рекламодателями.</p>
+            </div>
+            <nav class="footer__links">
+                <a href="mailto:info@dengi-v-banke.ru" class="mail">
+                    <img src="img/svgicons/mail.svg" alt="mail">
+                    <p>info@dengi-v-banke.ru</p>
+                </a>
+                <nav class="socials">
+                    <a href="#">
+                        <img src="img/svgicons/vk.svg" alt="vk">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/inst.svg" alt="inst">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/youtube.svg" alt="youtube">
+                    </a>
+                    <a href="#">
+                        <img src="img/svgicons/facebook.svg" alt="facebook">
+                    </a>
+                </nav>
+                <div class="footer__policy">
+                    <a href="#">Пользовательское соглашение</a>
+                    <a href="#">Обработка персональных данных</a>
+                </div>
+                <p>ДеньгивБанке.ру - 2023. Все права защищены</p>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </body>
+</html>
