@@ -146,6 +146,7 @@ h6 {
   left: 0;
   z-index: 100000;
   height: 128px;
+  transition: all 300ms ease;
 }
 .header::before {
   content: "";
@@ -156,6 +157,9 @@ h6 {
   height: 100%;
   z-index: 2;
   background: transparent;
+}
+.header.active {
+  transform: translate(0px, -65px);
 }
 .header__burger {
   display: none;
